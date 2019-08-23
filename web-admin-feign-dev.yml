@@ -1,6 +1,8 @@
 spring:
   application:
     name: hello-spring-cloud-web-admin-feign
+  zipkin:
+    base-url: http://localhost:8768
 
 server:
   port: 8767
